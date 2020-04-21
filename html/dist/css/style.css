@@ -12129,3 +12129,13 @@ File: scss
     text-align: center;
     margin-top: 10px;
     overflow: hidden; } }
+
+.register-form label {
+  float: right;
+  color: black;
+  font-size: 17px;
+}
+
+.register-form button {
+  margin-left: 45%;
+}
