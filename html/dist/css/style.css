@@ -683,6 +683,7 @@ pre {
   max-width: 91.66667%; }
 
 .col-12 {
+  padding-top: 7%;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
@@ -1439,10 +1440,13 @@ pre {
   background-color: transparent; }
   .table th,
   .table td {
+    text-align: right;
     padding: 1rem;
     vertical-align: top;
     border-top: 1px solid #dee2e6; }
   .table thead th {
+    font-size: 19px;
+    color: rgb(58, 58, 58);
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6; }
   .table tbody + tbody {
@@ -10627,6 +10631,7 @@ sidebar navigation
       list-style: none; }
       .sidebar-nav ul li a {
         color: #54667a;
+        font-weight: 600;
         padding: 10px 15px 10px 15px;
         display: block;
         -webkit-box-align: center;
@@ -11452,7 +11457,7 @@ icons path
   bottom: 0;
   color: #212529;
   left: 0px;
-  padding: 17px 15px;
+  padding: 17px 0 15px 30px;
   right: 0;
   border-top: 1px solid #e9ecef;
   background: #fff; }
